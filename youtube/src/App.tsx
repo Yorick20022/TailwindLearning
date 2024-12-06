@@ -5,7 +5,13 @@ function App() {
 
   return (
     <>
-      <h1 className='text-xl'>Hello World</h1>
+      {/* Header div */}
+      <div>
+        <div className='p-5 ml-1'>
+          <img src='../assets/sidebarbutton.svg'></img>
+          <img className='w-52 px-14 -mt-6' src='../assets/youtube-6.svg'></img>
+        </div>
+      </div>
     </>
   )
 }
